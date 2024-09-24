@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 16 Jul 2024 06:07:32 +0000
+Source: test
+Binary: test
+Architecture: amd64
+Version: 0.0.1
+Distribution: stable
+Urgency: medium
+Maintainer: Dmitriy <mail@mail.org>
+Description:
+ test       - TEST packages.
+Changes:
+ test (0.0.1) stable; urgency=medium
+ .
+   * Initial release
+ .
+   -- Dmitriy <mail@mail.org>  Mon, 2024 20:21:39 +0300
+Checksums-Sha1:
+ 73582f0072039ed45feaa0677430b51d3d9fbfea 3869 test_0.0.1_amd64.buildinfo
+ ed3101e1cf44ea9e94c12a8dd17ae4180537c6d3 3716 test_0.0.1_amd64.deb
+Checksums-Sha256:
+ f7e0c542f7c966b0ab6719aa28684fdc459da893db595028350ae9b589f4381e 3869 test_0.0.1_amd64.buildinfo
+ 1c2e614d2ef32c570fc8df7eb854dcaf648a6f48ac22799db0687338cbe672a1 3716 test_0.0.1_amd64.deb
+Files:
+ cd59e2edc2823c324238b97bd3d34047 3869 utils optional test_0.0.1_amd64.buildinfo
+ 9ade8e96665cbeb525e34b8a4f1912c4 3716 utils optional test_0.0.1_amd64.deb

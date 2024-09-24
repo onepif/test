@@ -1,0 +1,11 @@
+Package: test
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Dmitriy <mail@mail.org>
+Installed-Size: 15
+Provides: test
+Section: utils
+Priority: optional
+Homepage: https://test.org
+Description: TEST packages.
+ Deb Пакет с тестовым заданием.

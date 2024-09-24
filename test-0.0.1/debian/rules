@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+export DH_VERBOSE = 1
+
+DESTDIR=$(CURDIR)/debian/test
+
+override_dh_clean:
+
+override_dh_make:
+
+override_dh_install:
+	mkdir -p ${DESTDIR}/usr/bin
+	install -m 755 test.sh  ${DESTDIR}/usr/bin/
+
+%:
+	dh $@
